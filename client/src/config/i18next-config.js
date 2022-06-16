@@ -94,6 +94,10 @@ i18n
             errors_mail_required: "Se requiere una dirección de correo.",
             errors_mail_invalid:
               "Dirección de correo inválida. Prueba con otra.",
+            errors_mail_checkemail:
+              "Por favor checkea tu email para verificar tu cuenta!",
+            errors_mail_taken:
+              "Dirección de correo ya está en uso.",
             errors_password: "Se requiere una contraseña.",
             errors_password_invalid:
               "La contraseña debe tener entre 8 y 16 caracteres, debe contener contener caracteres en mayúsculas y minúsculas, y al menos 1 número.",
@@ -245,7 +249,7 @@ i18n
             loggedOut: "Sesión cerrada. Hasta luego",
           },
           adminHome: {
-            filter: "Filtrar por:",
+            filter: "Filtrar:",
             name: "Nombre",
             stock: "Unidades disponibles",
             rating: "Valoración",
@@ -257,9 +261,20 @@ i18n
             order: "Orden:",
             valueAsc: "Ascendente",
             valueDes: "Descendente",
-            reset: "Reestablecer los filtros",
+            reset: "Limpiar filtros",
           },
           home: {
+            promoCard: {
+              cuotes: {
+                title: "3 Cuotas sin interes",
+                subTitle: "Con todos los bancos",
+              },
+              return: {
+                title: "Devolucion gratis",
+                subTitle: "Cambios sin cargo",
+              },
+              delivery: { title: "Envios Express", subTitle: "CABA y GBA" },
+            },
             altAddToCart: "¡Añadido al carrito!",
             altAlreadyInCart: "El producto ya se encuentra en tu carrito",
             altAddToFavs: "¡Añadido a favoritos!",
@@ -323,11 +338,11 @@ i18n
             insuficientQuantity: "El stock actual es insuficiente.",
             error: "Hubo un problema con tu compra.",
             cardProblem: "Hubo un problema con tu tarjeta",
-            chooseAddress: "Elegir una dirección de envío",
-            accountAddress: "Mi dirección",
-            newAddress: "Agregar nueva dirección",
+            chooseAddress: "Elegir una direccion de envio",
+            accountAddress: "Mi direccion",
+            newAddress: "Agregar nueva direccion",
             addressNotComplete:
-              "Complete su información personal para continuar",
+              "Informacion incompleta. Completar informacion en el perfil para continuar",
           },
         },
       },
@@ -413,6 +428,10 @@ i18n
             errors_mail_required: "Email address is required.",
             errors_mail_invalid:
               "Email address invalid. Please try another one.",
+            errors_mail_taken:
+              "This email is already taken.",
+            errors_mail_checkemail:
+              "Please check your email to verify your account!",
             errors_password: "Password is required.",
             errors_password_invalid:
               "Password must have between 8 to 16 characteres, uppercase and lowercase, and at least 1 number.",
@@ -565,7 +584,7 @@ i18n
             loggedOut: "Successfully logged out. See you later",
           },
           adminHome: {
-            filter: "Filter by:",
+            filter: "Filter:",
             name: "Name",
             stock: "Stock",
             rating: "Rating",
